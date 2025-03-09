@@ -8,7 +8,11 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
+<<<<<<< Updated upstream
 		nextID=323;
+=======
+		nextID=290;
+>>>>>>> Stashed changes
 	};
 	class LayerIndexProvider
 	{
@@ -16,10 +20,17 @@ class EditorData
 	};
 	class Camera
 	{
+<<<<<<< Updated upstream
 		pos[]={3309.3713,95.157516,5697.3438};
 		dir[]={-0.91229481,-0.36075458,0.19384925};
 		up[]={-0.35287771,0.93266028,0.074981198};
 		aside[]={0.20784488,7.3632691e-08,0.97816235};
+=======
+		pos[]={9121.1572,33.839268,9337.9512};
+		dir[]={0.081455931,-0.55196393,0.8299132};
+		up[]={0.053916816,0.83386385,0.54933101};
+		aside[]={0.9952445,-8.5638021e-08,-0.097682439};
+>>>>>>> Stashed changes
 	};
 };
 binarizationWanted=0;
@@ -47,14 +58,22 @@ addons[]=
 	"ace_cargo",
 	"A3_Supplies_F_Orange_Ammoboxes",
 	"A3_Modules_F_Curator_Curator",
+<<<<<<< Updated upstream
 	"UK3CB_Factions_MEE_O",
 	"lambs_wp"
+=======
+	"rhs_c_rva"
+>>>>>>> Stashed changes
 };
 class AddonsMetaData
 {
 	class List
 	{
+<<<<<<< Updated upstream
 		items=22;
+=======
+		items=21;
+>>>>>>> Stashed changes
 		class Item0
 		{
 			className="jsoc_VSM_Multicam_Config";
@@ -190,6 +209,7 @@ class AddonsMetaData
 		};
 		class Item20
 		{
+<<<<<<< Updated upstream
 			className="UK3CB_Factions_MEE";
 			name="3CB Factions - MEE";
 			author="3 Commando Brigade";
@@ -200,6 +220,12 @@ class AddonsMetaData
 			className="lambs_wp";
 			name="LAMBS Danger WP";
 			author="LAMBS Danger Dev Team";
+=======
+			className="rhs_c_rva";
+			name="Tochka-U Launcher";
+			author="Red Hammer Studios";
+			url="http://www.rhsmods.org/";
+>>>>>>> Stashed changes
 		};
 	};
 };
@@ -16105,8 +16131,13 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
+<<<<<<< Updated upstream
 						position[]={9112.2705,20.973148,9420.6963};
 						angles[]={0,6.2561507,0};
+=======
+						position[]={9113.1582,20.973152,9419.2422};
+						angles[]={-0,6.2561507,0};
+>>>>>>> Stashed changes
 					};
 					side="Empty";
 					flags=4;
@@ -16117,7 +16148,10 @@ class Mission
 					};
 					id=267;
 					type="B_supplyCrate_F";
+<<<<<<< Updated upstream
 					atlOffset=0.080726624;
+=======
+>>>>>>> Stashed changes
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16167,8 +16201,13 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
+<<<<<<< Updated upstream
 						position[]={9110.2988,20.973148,9420.6631};
 						angles[]={0,6.256156,0};
+=======
+						position[]={9111.1865,20.973152,9419.209};
+						angles[]={-0,6.256156,0};
+>>>>>>> Stashed changes
 					};
 					side="Empty";
 					flags=4;
@@ -16179,7 +16218,10 @@ class Mission
 					};
 					id=268;
 					type="B_supplyCrate_F";
+<<<<<<< Updated upstream
 					atlOffset=0.080726624;
+=======
+>>>>>>> Stashed changes
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16229,8 +16271,13 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
+<<<<<<< Updated upstream
 						position[]={9108.3799,20.973145,9420.6133};
 						angles[]={0,6.2691584,0};
+=======
+						position[]={9109.2676,20.973148,9419.1592};
+						angles[]={-0,6.2691584,0};
+>>>>>>> Stashed changes
 					};
 					side="Empty";
 					flags=4;
@@ -16241,7 +16288,11 @@ class Mission
 					};
 					id=269;
 					type="B_supplyCrate_F";
+<<<<<<< Updated upstream
 					atlOffset=0.080722809;
+=======
+					atlOffset=0.080726624;
+>>>>>>> Stashed changes
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16291,8 +16342,13 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
+<<<<<<< Updated upstream
 						position[]={9114.3643,20.973148,9420.7598};
 						angles[]={0,6.2562728,0};
+=======
+						position[]={9115.252,20.973152,9419.3057};
+						angles[]={-0,6.2562728,0};
+>>>>>>> Stashed changes
 					};
 					side="Empty";
 					flags=4;
@@ -16303,7 +16359,10 @@ class Mission
 					};
 					id=265;
 					type="C_IDAP_supplyCrate_F";
+<<<<<<< Updated upstream
 					atlOffset=0.080726624;
+=======
+>>>>>>> Stashed changes
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16353,8 +16412,13 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
+<<<<<<< Updated upstream
 						position[]={9117.0322,20.973089,9425.4824};
 						angles[]={0,0.00022689281,0};
+=======
+						position[]={9115.3125,20.973152,9422.1768};
+						angles[]={-0,0.00022689281,0};
+>>>>>>> Stashed changes
 					};
 					side="Empty";
 					flags=4;
@@ -16415,8 +16479,13 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
+<<<<<<< Updated upstream
 						position[]={9114.9375,20.973118,9425.4756};
 						angles[]={0,9.8286902e-05,0};
+=======
+						position[]={9113.2178,20.973181,9422.1699};
+						angles[]={-0,9.8286902e-05,0};
+>>>>>>> Stashed changes
 					};
 					side="Empty";
 					flags=4;
@@ -16427,7 +16496,11 @@ class Mission
 					};
 					id=270;
 					type="B_supplyCrate_F";
+<<<<<<< Updated upstream
 					atlOffset=0.080696106;
+=======
+					atlOffset=2.8610229e-05;
+>>>>>>> Stashed changes
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16477,8 +16550,13 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
+<<<<<<< Updated upstream
 						position[]={9112.9609,20.973127,9425.4951};
 						angles[]={0,0.00010303975,0};
+=======
+						position[]={9111.2412,20.97319,9422.1895};
+						angles[]={-0,0.00010303975,0};
+>>>>>>> Stashed changes
 					};
 					side="Empty";
 					flags=4;
@@ -16489,7 +16567,11 @@ class Mission
 					};
 					id=271;
 					type="B_supplyCrate_F";
+<<<<<<< Updated upstream
 					atlOffset=0.080705643;
+=======
+					atlOffset=3.8146973e-05;
+>>>>>>> Stashed changes
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16539,8 +16621,13 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
+<<<<<<< Updated upstream
 						position[]={9111.0439,20.973118,9425.4961};
 						angles[]={0,0.013105942,0};
+=======
+						position[]={9109.3242,20.973181,9422.1904};
+						angles[]={-0,0.013105942,0};
+>>>>>>> Stashed changes
 					};
 					side="Empty";
 					flags=4;
@@ -16551,7 +16638,11 @@ class Mission
 					};
 					id=272;
 					type="B_supplyCrate_F";
+<<<<<<< Updated upstream
 					atlOffset=0.080696106;
+=======
+					atlOffset=2.8610229e-05;
+>>>>>>> Stashed changes
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16601,7 +16692,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9681.0947,118.61542,9232.8789};
+						position[]={9115.3633,21.232357,9415.8555};
 						angles[]={0,0.00022689281,0};
 					};
 					side="Empty";
@@ -16612,7 +16703,11 @@ class Mission
 					};
 					id=281;
 					type="C_IDAP_supplyCrate_F";
+<<<<<<< Updated upstream
 					atlOffset=97.722992;
+=======
+					atlOffset=0.25920486;
+>>>>>>> Stashed changes
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16662,10 +16757,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9679.001,118.35622,9232.8711};
-						angles[]={0,9.8286902e-05,0};
+						position[]={9113.2695,20.973156,9415.8477};
+						angles[]={-0,9.8286902e-05,0};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						init="this addAction [ ""<t color='#FFBF00'>ARSENAL"", { [""Open"", true] spawn BIS_fnc_arsenal; } ];" \n "this addAction [ ""<t color='#009933'>ARSENAL (ACE)"", { [_this select 0, player, true] call ace_arsenal_fnc_openBox } ];" \n "this addAction [ ""-------"", {} ];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Helicopter Pilot (MTP)</t>"", ""loadouts\soar\helicopter_pilot_desert.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Helicopter Pilot (Tropic)</t>"", ""loadouts\soar\helicopter_pilot_tropic.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Helicopter Pilot (Night)</t>"", ""loadouts\soar\helicopter_pilot_black.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Jet Pilot</t>"", ""loadouts\soar\jet_pilot.sqf""];  " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Fixed Wing</t>"", ""loadouts\soar\wing.sqf""];" \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Commander (Desert)</t>"", ""loadouts\smar\smarcomdesert.sqf""];    " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Medic (Desert)</t>"", ""loadouts\smar\smarmeddesert.sqf""];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Engineer (Desert)</t>"", ""loadouts\smar\smarengdesert.sqf""];   " \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Commander (Tropic)</t>"", ""loadouts\smar\smarcomtropic.sqf""];    " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Medic (Tropic)</t>"", ""loadouts\smar\smarmedtropic.sqf""];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Engineer (Tropic)</t>"", ""loadouts\smar\smarengtropic.sqf""]; " \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Commander (Black)</t>"", ""loadouts\smar\smarcomblack.sqf""];    " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Medic (Black)</t>"", ""loadouts\smar\smarmedblack.sqf""];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Engineer (Black)</t>"", ""loadouts\smar\smarengblack.sqf""];";
@@ -16673,7 +16769,11 @@ class Mission
 					};
 					id=282;
 					type="B_supplyCrate_F";
+<<<<<<< Updated upstream
 					atlOffset=97.463791;
+=======
+					atlOffset=3.8146973e-06;
+>>>>>>> Stashed changes
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16723,10 +16823,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9677.0234,118.11101,9232.8916};
-						angles[]={0,0.00010303975,0};
+						position[]={9111.292,20.892422,9415.8682};
+						angles[]={-0,0.00010303975,0};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						init="this addAction [ ""<t color='#FFBF00'>ARSENAL"", { [""Open"", true] spawn BIS_fnc_arsenal; } ];" \n "this addAction [ ""<t color='#009933'>ARSENAL (ACE)"", { [_this select 0, player, true] call ace_arsenal_fnc_openBox } ];" \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Convert to Multicam</t>"", ""loadouts\switch\convertMulticam.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Convert to Multicam Tropic</t>"", ""loadouts\switch\convertMulticamTropic.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Convert to Multicam Black</t>"", ""loadouts\switch\convertBlack.sqf""];" \n "this addAction [""<t color='#FFBF00'>Convert to Multicam Alpine</t>"", ""loadouts\switch\convertArctic.sqf""];";
@@ -16734,7 +16835,6 @@ class Mission
 					};
 					id=283;
 					type="B_supplyCrate_F";
-					atlOffset=97.218582;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16784,10 +16884,11 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9675.1064,117.87331,9232.8926};
-						angles[]={0,0.013105942,0};
+						position[]={9109.375,20.892422,9415.8691};
+						angles[]={-0,0.013105942,0};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						init="this addAction [ ""<t color='#FFBF00'>ARSENAL"", { [""Open"", true] spawn BIS_fnc_arsenal; } ];" \n "this addAction [ ""<t color='#009933'>ARSENAL (ACE)"", { [_this select 0, player, true] call ace_arsenal_fnc_openBox } ];" \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - Rifleman</t>"", ""loadouts\delta\rifleman.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Autorifleman</t>"", ""loadouts\delta\autorifleman.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Medic</t>"", ""loadouts\delta\medic.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Fireteam Leader</t>"", ""loadouts\delta\fireteam_leader.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Squad Leader</t>"", ""loadouts\delta\squad_leader.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Grenadier</t>"", ""loadouts\delta\grenadier.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Engineer</t>"", ""loadouts\delta\engineer.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Anti-Tank Rifleman</t>"", ""loadouts\delta\anti_tank.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Marksman</t>"", ""loadouts\delta\marksman.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Radio Operator</t>"", ""loadouts\delta\radio_operator.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Ammo Bearer</t>"", ""loadouts\delta\ammo_bearer.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Empty</t>""," \n """loadouts\delta\empty.sqf""];";
@@ -16795,7 +16896,10 @@ class Mission
 					};
 					id=284;
 					type="B_supplyCrate_F";
+<<<<<<< Updated upstream
 					atlOffset=96.980881;
+=======
+>>>>>>> Stashed changes
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16976,7 +17080,11 @@ class Mission
 				};
 			};
 			id=285;
+<<<<<<< Updated upstream
 			atlOffset=19.070763;
+=======
+			atlOffset=0.27739906;
+>>>>>>> Stashed changes
 		};
 		class Item2
 		{
@@ -16984,12 +17092,17 @@ class Mission
 			side="East";
 			class Entities
 			{
+<<<<<<< Updated upstream
 				items=32;
+=======
+				items=2;
+>>>>>>> Stashed changes
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
+<<<<<<< Updated upstream
 						position[]={3122.4573,9.2747841,5739.7139};
 					};
 					side="East";
@@ -17001,12 +17114,26 @@ class Mission
 					};
 					id=287;
 					type="UK3CB_MEE_O_SL";
+=======
+						position[]={9124.2842,20.001438,9360.4102};
+						angles[]={-0,4.6691775,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=288;
+					type="rhs_rva_crew";
+>>>>>>> Stashed changes
 				};
 				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
 					{
+<<<<<<< Updated upstream
 						position[]={3125.4573,9.3606167,5736.7139};
 					};
 					side="East";
@@ -17529,15 +17656,63 @@ class Mission
 					id=321;
 					type="UK3CB_MEE_O_DEM";
 					atlOffset=9.5367432e-07;
+=======
+						position[]={9124.2842,21.989944,9360.4102};
+						angles[]={-0,4.6691775,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=289;
+					type="rhs_rva_crew_officer";
+>>>>>>> Stashed changes
 				};
 			};
 			class Attributes
 			{
 			};
+<<<<<<< Updated upstream
+=======
+			class CrewLinks
+			{
+				class LinkIDProvider
+				{
+					nextID=2;
+				};
+				class Links
+				{
+					items=2;
+					class Item0
+					{
+						linkID=0;
+						item0=288;
+						item1=287;
+						class CustomData
+						{
+							role=1;
+						};
+					};
+					class Item1
+					{
+						linkID=1;
+						item0=289;
+						item1=287;
+						class CustomData
+						{
+							role=2;
+							turretPath[]={0};
+						};
+					};
+				};
+			};
+>>>>>>> Stashed changes
 			id=286;
 		};
 		class Item3
 		{
+<<<<<<< Updated upstream
 			dataType="Logic";
 			class PositionInfo
 			{
@@ -17603,6 +17778,21 @@ class Mission
 				};
 				nAttributes=4;
 			};
+=======
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={9124.2842,21.988506,9360.3604};
+				angles[]={-0,4.6691775,0};
+			};
+			side="East";
+			flags=6;
+			class Attributes
+			{
+			};
+			id=287;
+			type="rhs_9k79_K";
+>>>>>>> Stashed changes
 		};
 	};
 };
