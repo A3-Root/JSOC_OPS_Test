@@ -1633,7 +1633,7 @@ class Mission
 							{
 								skill=0.60000002;
 								rank="CAPTAIN";
-								description="Company Command - [Cpt.] Quicky ";
+								description="Company Command - [Cpt.] Alx ";
 								isPlayable=1;
 								class Inventory
 								{
@@ -1693,7 +1693,7 @@ class Mission
 								};
 							};
 							id=898;
-							type="jsoc_VSM_Multicam_Crye_Uniform";
+							type="OPTRE_Spartan2_Soldier_Rifleman_AR";
 							atlOffset=1.3205957;
 							class CustomAttributes
 							{
