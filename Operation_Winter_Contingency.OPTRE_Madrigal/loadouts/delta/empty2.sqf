@@ -1,0 +1,10 @@
+removeAllWeapons ACE_player;
+removeAllItems ACE_player;
+removeAllAssignedItems ACE_player;
+removeUniform ACE_player;
+removeVest ACE_player;
+removeBackpack ACE_player;
+removeHeadgear ACE_player;
+removeGoggles ACE_player;
+ACE_player forceAddUniform "Black_Black_Camo";
+ACE_player setSpeaker "ACE_NoVoice";

@@ -1,0 +1,71 @@
+comment "Remove existing items";
+removeAllWeapons ACE_player;
+removeAllItems ACE_player;
+removeAllAssignedItems ACE_player;
+removeUniform ACE_player;
+removeVest ACE_player;
+removeBackpack ACE_player;
+removeHeadgear ACE_player;
+removeGoggles ACE_player;
+
+comment "Add weapons";
+ACE_player addWeapon "hlc_wp_SCAR_PDW_Blk_grip2";
+ACE_player addPrimaryWeaponItem "hlc_muzzle_OEMDevice_556";
+ACE_player addPrimaryWeaponItem "rhsusf_acc_anpeq15side_bk";
+ACE_player addPrimaryWeaponItem "rhsusf_acc_eotech_552";
+ACE_player addPrimaryWeaponItem "rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger";
+ACE_player addPrimaryWeaponItem "rhsusf_acc_grip2";
+ACE_player addWeapon "Tier1_Glock19_Urban";
+ACE_player addHandgunItem "Tier1_20Rnd_9x19_JHP";
+
+comment "Add containers";
+ACE_player forceAddUniform "Alpine_white_Crye_Camo";
+ACE_player addVest "LBT1961_Alpine";
+ACE_player addBackpack "UK3CB_ION_B_B_RadioBag_WIN";
+
+comment "Add binoculars";
+ACE_player addWeapon "ACE_Vector";
+
+comment "Add items to containers";
+for "_i" from 1 to 10 do {ACE_player addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 10 do {ACE_player addItemToUniform "ACE_packingBandage";};
+for "_i" from 1 to 4 do {ACE_player addItemToUniform "ACE_CableTie";};
+for "_i" from 1 to 2 do {ACE_player addItemToUniform "ACE_EarPlugs";};
+for "_i" from 1 to 5 do {ACE_player addItemToUniform "ACE_epinephrine";};
+ACE_player addItemToUniform "ACE_Flashlight_MX991";
+ACE_player addItemToUniform "ItemAndroid";
+ACE_player addItemToUniform "ItemcTabHCam";
+ACE_player addItemToUniform "ACE_IR_Strobe_Item";
+ACE_player addItemToUniform "ACE_MapTools";
+for "_i" from 1 to 5 do {ACE_player addItemToUniform "ACE_morphine";};
+ACE_player addItemToUniform "ACE_SpraypaintBlue";
+for "_i" from 1 to 4 do {ACE_player addItemToUniform "ACE_tourniquet";};
+ACE_player addItemToUniform "ACRE_PRC152";
+ACE_player addItemToUniform "ACE_HandFlare_Green";
+ACE_player addItemToUniform "rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger";
+ACE_player addItemToVest "ACE_EntrenchingTool";
+for "_i" from 1 to 2 do {ACE_player addItemToVest "ACE_plasmaIV_500";};
+ACE_player addItemToVest "ItemcTab";
+ACE_player addItemToVest "ACRE_PRC152";
+ACE_player addItemToVest "Tier1_20Rnd_9x19_JHP";
+for "_i" from 1 to 2 do {ACE_player addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger";};
+ACE_player addItemToBackpack "jsoc_Beret_JSOC";
+ACE_player addItemToBackpack "ACRE_PRC117F";
+for "_i" from 1 to 2 do {ACE_player addItemToBackpack "rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger";};
+ACE_player addItemToBackpack "SmokeShellBlue";
+ACE_player addItemToBackpack "SmokeShellRed";
+for "_i" from 1 to 2 do {ACE_player addItemToBackpack "rhs_mag_m67";};
+for "_i" from 1 to 2 do {ACE_player addItemToBackpack "SmokeShell";};
+ACE_player addHeadgear "jsoc_rhsusf_cvc_winter_helmet";
+ACE_player addGoggles "PU_shemagh_WhiteO";
+
+comment "Add items";
+ACE_player linkItem "ItemMap";
+ACE_player linkItem "ItemCompass";
+ACE_player linkItem "ItemWatch";
+ACE_player linkItem "ItemRadioAcreFlagged";
+ACE_player linkItem "ItemGPS";
+ACE_player linkItem "A3_GPNVG18_REC_BLK_F";
+
+comment "Set identity";
+ACE_player setSpeaker "ACE_NoVoice";

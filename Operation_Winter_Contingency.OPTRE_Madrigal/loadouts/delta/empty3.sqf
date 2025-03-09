@@ -1,0 +1,13 @@
+removeAllWeapons ACE_player;
+removeAllItems ACE_player;
+removeAllAssignedItems ACE_player;
+removeUniform ACE_player;
+removeVest ACE_player;
+removeBackpack ACE_player;
+removeHeadgear ACE_player;
+removeGoggles ACE_player;
+ACE_player forceAddUniform "Alpine_Crye_Camo";
+ACE_player addVest "dr_ALPfacp_op";
+ACE_player addBackpack "Alpine_Backpack_Compact";
+ACE_player addHeadgear "ALP_opscore_2";
+ACE_player addGoggles "VSM_Balaclava2_black_Peltor_Goggles";
