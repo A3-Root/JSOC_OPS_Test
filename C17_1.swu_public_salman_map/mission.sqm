@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=325;
+		nextID=290;
 	};
 	class LayerIndexProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={9092.377,28.910088,9388.9072};
-		dir[]={-0.11146598,-0.36237046,0.92536998};
-		up[]={-0.043338235,0.93202931,0.35978547};
-		aside[]={0.99284881,-2.0729203e-07,0.11959526};
+		pos[]={9100.9893,24.919043,9343.7949};
+		dir[]={0.073130876,-0.27241546,0.95951676};
+		up[]={0.020705709,0.96217,0.27166384};
+		aside[]={0.99721432,-5.3306576e-07,-0.07600601};
 	};
 };
 binarizationWanted=0;
@@ -46,16 +46,13 @@ addons[]=
 	"A3_Weapons_F_Ammoboxes",
 	"ace_cargo",
 	"A3_Supplies_F_Orange_Ammoboxes",
-	"A3_Modules_F_Curator_Curator",
-	"UK3CB_Factions_MEE_O",
-	"lambs_wp",
-	"CUP_Buildings_Config"
+	"A3_Modules_F_Curator_Curator"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=23;
+		items=20;
 		class Item0
 		{
 			className="jsoc_VSM_Multicam_Config";
@@ -189,24 +186,6 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
-		{
-			className="UK3CB_Factions_MEE";
-			name="3CB Factions - MEE";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
-		};
-		class Item21
-		{
-			className="lambs_wp";
-			name="LAMBS Danger WP";
-			author="LAMBS Danger Dev Team";
-		};
-		class Item22
-		{
-			className="CUP_Buildings_Config";
-			name="CUP_Buildings_Config";
-		};
 	};
 };
 dlcs[]=
@@ -279,7 +258,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=5;
+		items=2;
 		class Item0
 		{
 			dataType="Layer";
@@ -15936,7 +15915,7 @@ class Mission
 			name="ORBAT_Temp";
 			class Entities
 			{
-				items=14;
+				items=15;
 				class Item0
 				{
 					dataType="Layer";
@@ -16306,7 +16285,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this addAction [ ""<t color='#FFBF00'>ARSENAL"", { [""Open"", true] spawn BIS_fnc_arsenal; } ];" \n "this addAction [ ""<t color='#009933'>ARSENAL (ACE)"", { [_this select 0, player, true] call ace_arsenal_fnc_openBox } ];" \n "this addAction [ ""-------"", {} ];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Helicopter Pilot (MTP)</t>"", ""loadouts\soar\helicopter_pilot_desert.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Helicopter Pilot (Tropic)</t>"", ""loadouts\soar\helicopter_pilot_tropic.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Helicopter Pilot (Night)</t>"", ""loadouts\soar\helicopter_pilot_black.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Jet Pilot</t>"", ""loadouts\soar\jet_pilot.sqf""];  " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Fixed Wing</t>"", ""loadouts\soar\wing.sqf""];" \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Commander (Desert)</t>"", ""loadouts\smar\smarcomdesert.sqf""];    " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Medic (Desert)</t>"", ""loadouts\smar\smarmeddesert.sqf""];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Engineer (Desert)</t>"", ""loadouts\smar\smarengdesert.sqf""];   " \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Commander (Tropic)</t>"", ""loadouts\smar\smarcomtropic.sqf""];    " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Medic (Tropic)</t>"", ""loadouts\smar\smarmedtropic.sqf""];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Engineer (Tropic)</t>"", ""loadouts\smar\smarengtropic.sqf""]; " \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Commander (Black)</t>"", ""loadouts\smar\smarcomblack.sqf""];    " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Medic (Black)</t>"", ""loadouts\smar\smarmedblack.sqf""];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Engineer (Black)</t>"", ""loadouts\smar\smarengblack.sqf""];";
+						init="this addAction [ ""<t color='#009933'>Activate Medic Trait"", {ACE_player setVariable [""ace_isEngineer"", 0, true]; ACE_player setVariable [""ace_medical_medicClass"", 1, true]; ACE_player setVariable [""ACE_GForceCoef"", 1];} ];" \n "this addAction [ ""<t color='#009933'>Activate Engineer Trait"", {ACE_player setVariable [""ace_isEngineer"", 1, true]; ACE_player setVariable [""ace_medical_medicClass"", 0, true];ACE_player setVariable [""ACE_GForceCoef"", 1];} ]; " \n "this addAction [ ""<t color='#009933'>Activate Pilot Trait"", {ACE_player setVariable [""ace_isEngineer"", 2, true]; ACE_player setVariable [""ace_medical_medicClass"", 0, true];ACE_player setVariable [""ACE_GForceCoef"", 0.55];} ];" \n "this addAction [ ""<t color='#009933'>Deactivate Traits"", {ACE_player setVariable [""ace_isEngineer"", 0, true]; ACE_player setVariable [""ace_medical_medicClass"", 0, true];ACE_player setVariable [""ACE_GForceCoef"", 1];} ];";
 						disableSimulation=1;
 					};
 					id=266;
@@ -16360,17 +16339,17 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9086.248,20.892422,9418.5146};
-						angles[]={-0,0.00010303975,0};
+						position[]={9113.2178,20.973181,9422.1699};
+						angles[]={0,9.8286902e-05,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
-						init="this addAction [ ""<t color='#FFBF00'>ARSENAL"", { [""Open"", true] spawn BIS_fnc_arsenal; } ];" \n "this addAction [ ""<t color='#009933'>ARSENAL (ACE)"", { [_this select 0, player, true] call ace_arsenal_fnc_openBox } ];" \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Convert to Multicam</t>"", ""loadouts\switch\convertMulticam.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Convert to Multicam Tropic</t>"", ""loadouts\switch\convertMulticamTropic.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Convert to Multicam Black</t>"", ""loadouts\switch\convertBlack.sqf""];" \n "this addAction [""<t color='#FFBF00'>Convert to Multicam Alpine</t>"", ""loadouts\switch\convertArctic.sqf""];";
+						init="this addAction [ ""<t color='#FFBF00'>ARSENAL"", { [""Open"", true] spawn BIS_fnc_arsenal; } ];" \n "this addAction [ ""<t color='#009933'>ARSENAL (ACE)"", { [_this select 0, player, true] call ace_arsenal_fnc_openBox } ];" \n "this addAction [ ""-------"", {} ];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Helicopter Pilot (MTP)</t>"", ""loadouts\soar\helicopter_pilot_desert.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Helicopter Pilot (Tropic)</t>"", ""loadouts\soar\helicopter_pilot_tropic.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Helicopter Pilot (Night)</t>"", ""loadouts\soar\helicopter_pilot_black.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Jet Pilot</t>"", ""loadouts\soar\jet_pilot.sqf""];  " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Fixed Wing</t>"", ""loadouts\soar\wing.sqf""];" \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Commander (Desert)</t>"", ""loadouts\smar\smarcomdesert.sqf""];    " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Medic (Desert)</t>"", ""loadouts\smar\smarmeddesert.sqf""];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Engineer (Desert)</t>"", ""loadouts\smar\smarengdesert.sqf""];   " \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Commander (Tropic)</t>"", ""loadouts\smar\smarcomtropic.sqf""];    " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Medic (Tropic)</t>"", ""loadouts\smar\smarmedtropic.sqf""];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Engineer (Tropic)</t>"", ""loadouts\smar\smarengtropic.sqf""]; " \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Commander (Black)</t>"", ""loadouts\smar\smarcomblack.sqf""];    " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Medic (Black)</t>"", ""loadouts\smar\smarmedblack.sqf""];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Engineer (Black)</t>"", ""loadouts\smar\smarengblack.sqf""];";
 						disableSimulation=1;
 					};
-					id=271;
+					id=270;
 					type="B_supplyCrate_F";
 					atlOffset=2.8610229e-05;
 					class CustomAttributes
@@ -16429,10 +16408,10 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="this addAction [ ""<t color='#FFBF00'>ARSENAL"", { [""Open"", true] spawn BIS_fnc_arsenal; } ];" \n "this addAction [ ""<t color='#009933'>ARSENAL (ACE)"", { [_this select 0, player, true] call ace_arsenal_fnc_openBox } ];" \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - Rifleman</t>"", ""loadouts\delta\rifleman.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Autorifleman</t>"", ""loadouts\delta\autorifleman.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Medic</t>"", ""loadouts\delta\medic.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Fireteam Leader</t>"", ""loadouts\delta\fireteam_leader.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Squad Leader</t>"", ""loadouts\delta\squad_leader.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Grenadier</t>"", ""loadouts\delta\grenadier.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Engineer</t>"", ""loadouts\delta\engineer.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Anti-Tank Rifleman</t>"", ""loadouts\delta\anti_tank.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Marksman</t>"", ""loadouts\delta\marksman.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Radio Operator</t>"", ""loadouts\delta\radio_operator.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Ammo Bearer</t>"", ""loadouts\delta\ammo_bearer.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Empty</t>""," \n """loadouts\delta\empty.sqf""];";
+						init="this addAction [ ""<t color='#FFBF00'>ARSENAL"", { [""Open"", true] spawn BIS_fnc_arsenal; } ];" \n "this addAction [ ""<t color='#009933'>ARSENAL (ACE)"", { [_this select 0, player, true] call ace_arsenal_fnc_openBox } ];" \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Convert to Multicam</t>"", ""loadouts\switch\convertMulticam.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Convert to Multicam Tropic</t>"", ""loadouts\switch\convertMulticamTropic.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Convert to Multicam Black</t>"", ""loadouts\switch\convertBlack.sqf""];" \n "this addAction [""<t color='#FFBF00'>Convert to Multicam Alpine</t>"", ""loadouts\switch\convertArctic.sqf""];";
 						disableSimulation=1;
 					};
-					id=272;
+					id=271;
 					type="B_supplyCrate_F";
 					atlOffset=3.8146973e-05;
 					class CustomAttributes
@@ -16488,9 +16467,10 @@ class Mission
 						angles[]={0,0.013105942,0};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
-						init="this addAction [ ""<t color='#009933'>Activate Medic Trait"", {ACE_player setVariable [""ace_isEngineer"", 0, true]; ACE_player setVariable [""ace_medical_medicClass"", 1, true]; ACE_player setVariable [""ACE_GForceCoef"", 1];} ];" \n "this addAction [ ""<t color='#009933'>Activate Engineer Trait"", {ACE_player setVariable [""ace_isEngineer"", 1, true]; ACE_player setVariable [""ace_medical_medicClass"", 0, true];ACE_player setVariable [""ACE_GForceCoef"", 1];} ]; " \n "this addAction [ ""<t color='#009933'>Activate Pilot Trait"", {ACE_player setVariable [""ace_isEngineer"", 2, true]; ACE_player setVariable [""ace_medical_medicClass"", 0, true];ACE_player setVariable [""ACE_GForceCoef"", 0.55];} ];" \n "this addAction [ ""<t color='#009933'>Deactivate Traits"", {ACE_player setVariable [""ace_isEngineer"", 0, true]; ACE_player setVariable [""ace_medical_medicClass"", 0, true];ACE_player setVariable [""ACE_GForceCoef"", 1];} ];";
+						init="this addAction [ ""<t color='#FFBF00'>ARSENAL"", { [""Open"", true] spawn BIS_fnc_arsenal; } ];" \n "this addAction [ ""<t color='#009933'>ARSENAL (ACE)"", { [_this select 0, player, true] call ace_arsenal_fnc_openBox } ];" \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - Rifleman</t>"", ""loadouts\delta\rifleman.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Autorifleman</t>"", ""loadouts\delta\autorifleman.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Medic</t>"", ""loadouts\delta\medic.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Fireteam Leader</t>"", ""loadouts\delta\fireteam_leader.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Squad Leader</t>"", ""loadouts\delta\squad_leader.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Grenadier</t>"", ""loadouts\delta\grenadier.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Engineer</t>"", ""loadouts\delta\engineer.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Anti-Tank Rifleman</t>"", ""loadouts\delta\anti_tank.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Marksman</t>"", ""loadouts\delta\marksman.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Radio Operator</t>"", ""loadouts\delta\radio_operator.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - Ammo Bearer</t>"", ""loadouts\delta\ammo_bearer.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Empty</t>""," \n """loadouts\delta\empty.sqf""];";
 						disableSimulation=1;
 					};
 					id=272;
@@ -16545,14 +16525,13 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9086.5566,20.892422,9408.8672};
-						angles[]={-0,9.8286902e-05,0};
+						position[]={9115.3633,21.232357,9415.8555};
+						angles[]={0,0.00022689281,0};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
-						init="this addAction [ ""<t color='#FFBF00'>ARSENAL"", { [""Open"", true] spawn BIS_fnc_arsenal; } ];" \n "this addAction [ ""<t color='#009933'>ARSENAL (ACE)"", { [_this select 0, player, true] call ace_arsenal_fnc_openBox } ];" \n "this addAction [ ""-------"", {} ];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Helicopter Pilot (MTP)</t>"", ""loadouts\soar\helicopter_pilot_desert.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Helicopter Pilot (Tropic)</t>"", ""loadouts\soar\helicopter_pilot_tropic.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Helicopter Pilot (Night)</t>"", ""loadouts\soar\helicopter_pilot_black.sqf""]; " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Jet Pilot</t>"", ""loadouts\soar\jet_pilot.sqf""];  " \n "this addAction [""<t color='#FFBF00'>Delta Force - SOAR Fixed Wing</t>"", ""loadouts\soar\wing.sqf""];" \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Commander (Desert)</t>"", ""loadouts\smar\smarcomdesert.sqf""];    " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Medic (Desert)</t>"", ""loadouts\smar\smarmeddesert.sqf""];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Engineer (Desert)</t>"", ""loadouts\smar\smarengdesert.sqf""];   " \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Commander (Tropic)</t>"", ""loadouts\smar\smarcomtropic.sqf""];    " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Medic (Tropic)</t>"", ""loadouts\smar\smarmedtropic.sqf""];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Engineer (Tropic)</t>"", ""loadouts\smar\smarengtropic.sqf""]; " \n "this addAction [ ""-------"", {} ];" \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Commander (Black)</t>"", ""loadouts\smar\smarcomblack.sqf""];    " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Medic (Black)</t>"", ""loadouts\smar\smarmedblack.sqf""];   " \n "this addAction [""<t color='#FFBF00'>Delta Force - SMAR Crew Engineer (Black)</t>"", ""loadouts\smar\smarengblack.sqf""];";
+						init="this addAction [ ""<t color='#009933'>Activate Medic Trait"", {ACE_player setVariable [""ace_isEngineer"", 0, true]; ACE_player setVariable [""ace_medical_medicClass"", 1, true]; ACE_player setVariable [""ACE_GForceCoef"", 1];} ];" \n "this addAction [ ""<t color='#009933'>Activate Engineer Trait"", {ACE_player setVariable [""ace_isEngineer"", 1, true]; ACE_player setVariable [""ace_medical_medicClass"", 0, true];ACE_player setVariable [""ACE_GForceCoef"", 1];} ]; " \n "this addAction [ ""<t color='#009933'>Activate Pilot Trait"", {ACE_player setVariable [""ace_isEngineer"", 2, true]; ACE_player setVariable [""ace_medical_medicClass"", 0, true];ACE_player setVariable [""ACE_GForceCoef"", 0.55];} ];" \n "this addAction [ ""<t color='#009933'>Deactivate Traits"", {ACE_player setVariable [""ace_isEngineer"", 0, true]; ACE_player setVariable [""ace_medical_medicClass"", 0, true];ACE_player setVariable [""ACE_GForceCoef"", 1];} ];";
 						disableSimulation=1;
 					};
 					id=281;
@@ -16725,7 +16704,7 @@ class Mission
 						nAttributes=3;
 					};
 				};
-				class Item11
+				class Item12
 				{
 					dataType="Object";
 					class PositionInfo
@@ -16786,7 +16765,7 @@ class Mission
 						nAttributes=3;
 					};
 				};
-				class Item12
+				class Item13
 				{
 					dataType="Logic";
 					class PositionInfo
@@ -16853,7 +16832,7 @@ class Mission
 						nAttributes=4;
 					};
 				};
-				class Item13
+				class Item14
 				{
 					dataType="Logic";
 					class PositionInfo
